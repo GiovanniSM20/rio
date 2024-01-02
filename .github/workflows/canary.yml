@@ -31,7 +31,7 @@ jobs:
 
       - name: Get all changed *.rs file(s) or any file in the misc folder excluding the docs folder
         id: changed-files-excluded
-        uses: tj-actions/changed-files@v36
+        uses: tj-actions/changed-files@v41
         with:
           files: |
             **/*.rs
